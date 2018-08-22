@@ -1,0 +1,26 @@
+* About
+Thermocouples are used to measure temperature and have a very big range. They use voltage diffrences to determine the temperature.
+* Chip - MAX 6675
+** Specifications
+| Suply Voltage          | 3.3 to 5 VDC       |
+| Operating Current      | ~50mA              |
+| Measurement Range      | 0 - 1024^∘C        |
+| Measurement Resolution | +/- 0.25^∘C        |
+| Output                 | Uses SPI interface |
+| Required sensor        | K Thermocouple     |
+** Pins functions: 
+   - SO: Serial output, arduino reads output from this
+   - CS: Chip select. Setting low, selects the Module and tells it to supply an output that is synchronize with a clock
+   - SCK: input from arduino(serial clock)
+   - VCC: power suply(5V)
+   - GND: ground
+   - -(minus): K Thermocouple minus input
+   - +(plus): K Thermocouple plus input
+** MAX6675 library
+You can download the necessary library here
+[[https://github.com/adafruit/MAX6675-library][download]]
+** Arduino code
+Basic code for reading temp
+[[file:measurement.ino][the code is ehre]]
+** Datasheet
+[[http://henrysbench.capnfatz.com/wp-content/uploads/2015/05/MAX6675-Datasheet.pdf][link]]
