@@ -21,6 +21,6 @@ You can download the necessary library here
 [[https://github.com/adafruit/MAX6675-library][download]]
 ** Arduino code
 Basic code for reading temp
-[[file:measurement.ino][the code is ehre]]
+[[file:measurement.ino][the code is here]]
 ** Datasheet
 [[http://henrysbench.capnfatz.com/wp-content/uploads/2015/05/MAX6675-Datasheet.pdf][link]]
