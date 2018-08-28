@@ -8,6 +8,9 @@ Thermocouples are used to measure temperature and have a very big range. They us
 | Measurement Resolution | +/- 0.25^∘C        |
 | Output                 | Uses SPI interface |
 | Required sensor        | K Thermocouple     |
+** Thermocouples schema
+This is the schema for all the wireing with arduino
+ [[file:thermocouples_schema.png][Schema]]
 ** Pins functions: 
    - SO: Serial output, arduino reads output from this
    - CS: Chip select. Setting low, selects the Module and tells it to supply an output that is synchronize with a clock
